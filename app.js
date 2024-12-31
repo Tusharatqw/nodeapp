@@ -8,10 +8,10 @@ const port = 3001;
 
 // MySQL Connection
 const db = mysql.createConnection({
-  host: "sql12.freesqldatabase.com",
-  user: "sql12754975",
-  password: "BzeGisCFqw",
-  database: "sql12754975",
+   host: "localhost",
+  user: "root",
+  password: "1234",
+  database: "survey_db",
 });
 
 // Connect to MySQL
